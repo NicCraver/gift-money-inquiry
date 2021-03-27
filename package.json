@@ -1,0 +1,24 @@
+{
+  "name": "Gift-Money",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=./",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@vant/use": "^1.0.5",
+    "axios": "^0.21.1",
+    "js-pinyin": "^0.1.9",
+    "leancloud-storage": "^4.10.0",
+    "vant": "^3.0.9",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "less": "^4.1.1",
+    "vite": "^2.0.5",
+    "vite-plugin-style-import": "^0.8.1"
+  }
+}
