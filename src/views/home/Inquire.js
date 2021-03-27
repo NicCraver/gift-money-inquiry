@@ -1,5 +1,5 @@
 import AV from 'leancloud-storage'
-import { Toast } from 'vant';
+import { Toast } from 'vant'
 export default function (state, tableName) {
   const updateList = async () => {
     console.log(`updateList---`, tableName)
@@ -22,14 +22,6 @@ export default function (state, tableName) {
           money: el.attributes.money,
         })
       })
-      console.log(`备份-----人数：`, tempList.length)
-      console.log(
-        JSON.stringify(
-          tempList.sort((x, y) => {
-            return x['name'].localeCompare(y['name'])
-          })
-        )
-      )
       setTimeout(() => {
         Toast.clear()
         state.loading = false
