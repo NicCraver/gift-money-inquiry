@@ -20,7 +20,7 @@ yarn build
 ```
 
 ### leancloud-storage
-本系统使用进行数据存储
+本系统使用`leancloud-storage`进行数据存储
 [官网](https://www.leancloud.cn/)
 
 [价格表（开发版是免费的）](https://www.leancloud.cn/pricing/)  
